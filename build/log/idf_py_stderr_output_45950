@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/__main__.py", line 9, in <module>
+    esptool._main()
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/__init__.py", line 1139, in _main
+    main()
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/__init__.py", line 712, in main
+    esp = esp or get_default_connected_device(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/__init__.py", line 1024, in get_default_connected_device
+    _esp.connect(before, connect_attempts)
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/loader.py", line 678, in connect
+    last_error = self._connect_attempt(reset_strategy, mode)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/loader.py", line 563, in _connect_attempt
+    reset_strategy()  # Reset the chip to bootloader (download mode)
+    ^^^^^^^^^^^^^^^^
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/reset.py", line 83, in __call__
+    self._setDTRandRTS(False, False)
+  File "/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/lib/python3.11/site-packages/esptool/reset.py", line 48, in _setDTRandRTS
+    "I", fcntl.ioctl(self.port.fileno(), TIOCMGET, struct.pack("I", 0))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 25] Inappropriate ioctl for device
+CMake Error at run_serial_tool.cmake:66 (message):
+  
+  /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/hronoz/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+

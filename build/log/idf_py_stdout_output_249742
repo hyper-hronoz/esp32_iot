@@ -1,0 +1,69 @@
+[1/5] cd /home/hronoz/esp/hello_world/build/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hronoz/esp/hello_world/build/partition_table/partition-table.bin /home/hronoz/esp/hello_world/build/hello_world.bin
+hello_world.bin binary size 0xbd760 bytes. Smallest app partition is 0x100000 bytes. 0x428a0 bytes (26%) free.
+[2/5] Performing build step for 'bootloader'
+[1/1] cd /home/hronoz/esp/hello_world/build/bootloader/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hronoz/esp/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[3/5] No install step for 'bootloader'
+[4/5] Completed 'bootloader'
+[4/5] cd /home/hronoz/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/hronoz/esp/esp-idf -D "SERIAL_TOOL=/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/hronoz/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/hronoz/esp/hello_world/build -P /home/hronoz/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 hello_world.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting.....
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:d1:f9:e1:84:ec
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000cdfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16358...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16358 compressed) at 0x00001000 in 0.5 seconds (effective 403.6 kbit/s)...
+Hash of data verified.
+Compressed 776032 bytes to 488914...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c941... (6 %)
+Writing at 0x00024a0e... (10 %)
+Writing at 0x00029832... (13 %)
+Writing at 0x00035116... (16 %)
+Writing at 0x0003b291... (20 %)
+Writing at 0x00040cc1... (23 %)
+Writing at 0x000464e8... (26 %)
+Writing at 0x0004c270... (30 %)
+Writing at 0x00052032... (33 %)
+Writing at 0x00057bbd... (36 %)
+Writing at 0x0005ce07... (40 %)
+Writing at 0x000622aa... (43 %)
+Writing at 0x000677ac... (46 %)
+Writing at 0x0006cb3b... (50 %)
+Writing at 0x00072188... (53 %)
+Writing at 0x00077a35... (56 %)
+Writing at 0x0007d904... (60 %)
+Writing at 0x0008325f... (63 %)
+Writing at 0x00088da9... (66 %)
+Writing at 0x0008eafb... (70 %)
+Writing at 0x00094361... (73 %)
+Writing at 0x00099fa4... (76 %)
+Writing at 0x000a0663... (80 %)
+Writing at 0x000a5fb9... (83 %)
+Writing at 0x000ab8b2... (86 %)
+Writing at 0x000b5834... (90 %)
+Writing at 0x000bcdc0... (93 %)
+Writing at 0x000c30be... (96 %)
+Writing at 0x000c8c24... (100 %)
+Wrote 776032 bytes (488914 compressed) at 0x00010000 in 11.0 seconds (effective 562.0 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1222.8 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...

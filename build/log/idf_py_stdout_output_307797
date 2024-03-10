@@ -1,0 +1,261 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 10 2024 12:45:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=27078h (159864) map[0m
+[0;32mI (159) esp_image: segment 1: paddr=000370a0 vaddr=3ffb0000 size=03c04h ( 15364) load[0m
+[0;32mI (165) esp_image: segment 2: paddr=0003acac vaddr=40080000 size=0536ch ( 21356) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=997f4h (628724) map[0m
+[0;32mI (389) esp_image: segment 4: paddr=000d981c vaddr=4008536c size=11344h ( 70468) load[0m
+[0;32mI (428) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (428) boot: Disabling RNG early entropy source...[0m
+[0;32mI (440) cpu_start: Multicore app[0m
+[0;32mI (449) cpu_start: Pro cpu start user code[0m
+[0;32mI (449) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (449) cpu_start: Application information:[0m
+[0;32mI (452) cpu_start: Project name:     hello_world[0m
+[0;32mI (457) cpu_start: App version:      1[0m
+[0;32mI (461) cpu_start: Compile time:     Mar 10 2024 12:45:21[0m
+[0;32mI (468) cpu_start: ELF file SHA256:  3ac561689...[0m
+[0;32mI (473) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (478) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (482) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (487) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (492) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (499) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFB8300 len 00027D00 (159 KiB): DRAM[0m
+[0;32mI (512) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (518) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 400966B0 len 00009950 (38 KiB): IRAM[0m
+[0;32mI (532) spi_flash: detected chip: generic[0m
+[0;32mI (535) spi_flash: flash io: dio[0m
+[0;33mW (539) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (553) main_task: Started on CPU0[0m
+[0;32mI (563) main_task: Calling app_main()[0m
+Esp32 serial on
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 276060 bytes
+I (613) wifi:wifi driver task: 3ffc0278, prio:23, stack:6656, core=0
+I (633) wifi:wifi firmware version: a9f5b59
+I (633) wifi:wifi certification version: v7.0
+I (633) wifi:config NVS flash: enabled
+I (633) wifi:config nano formating: disabled
+I (643) wifi:Init data frame dynamic rx buffer num: 32
+I (643) wifi:Init static rx mgmt buffer num: 5
+I (653) wifi:Init management short buffer num: 32
+I (653) wifi:Init dynamic tx buffer num: 32
+I (663) wifi:Init static rx buffer size: 1600
+I (663) wifi:Init static rx buffer num: 10
+I (663) wifi:Init dynamic rx buffer num: 32
+[0;32mI (673) wifi_init: rx ba win: 6[0m
+[0;32mI (673) wifi_init: tcpip mbox: 32[0m
+[0;32mI (673) wifi_init: udp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp tx win: 5760[0m
+[0;32mI (693) wifi_init: tcp rx win: 5760[0m
+[0;32mI (693) wifi_init: tcp mss: 1440[0m
+[0;32mI (693) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (703) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (713) phy_init: phy_version 4791,2c4672b,Dec 20 2023,16:06:06[0m
+I (803) wifi:mode : sta (08:d1:f9:e1:84:ec)
+I (803) wifi:enable tsf
+WIFI CONNECTING....
+wifi_init_softap finished. SSID:tp_freak_!5G  password:lolkek227@
+I (823) wifi:new:<2,0>, old:<1,0>, ap:<255,255>, sta:<2,0>, prof:1
+I (823) wifi:state: init -> auth (b0)
+I (833) wifi:state: auth -> assoc (0)
+I (843) wifi:state: assoc -> run (10)
+I (863) wifi:connected with tp_freak_!5G, aid = 132, channel 2, BW20, bssid = 48:22:54:81:c5:93
+I (863) wifi:security: WPA2-PSK, phy: bgn, rssi: -57
+I (873) wifi:pm start, type: 1
+
+I (873) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+I (883) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:0, winSize:64
+I (883) wifi:<ba-add>idx:1 (ifx:0, 48:22:54:81:c5:93), tid:1, ssn:0, winSize:64
+WiFi CONNECTED
+I (963) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+I (1403) wifi:<ba-del>idx:1, tid:1
+I (1403) wifi:<ba-del>idx:0, tid:0
+I (1403) wifi:<ba-add>idx:1 (ifx:0, 48:22:54:81:c5:93), tid:1, ssn:0, winSize:64
+I (1403) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:2, winSize:64
+[0;32mI (1893) esp_netif_handlers: sta ip: 192.168.0.156, mask: 255.255.255.0, gw: 192.168.0.1[0m
+Wifi got IP...
+
+I (1893) wifi:<ba-del>idx:0, tid:0
+I (1893) wifi:<ba-del>idx:1, tid:1
+I (1893) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:2, winSize:64
+I (1903) wifi:<ba-add>idx:1 (ifx:0, 48:22:54:81:c5:93), tid:1, ssn:0, winSize:64
+I (2603) wifi:<ba-del>idx:1, tid:1
+I (2603) wifi:<ba-del>idx:0, tid:0
+I (2603) wifi:<ba-add>idx:1 (ifx:0, 48:22:54:81:c5:93), tid:1, ssn:0, winSize:64
+I (2603) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:2, winSize:64
+I (3113) wifi:<ba-del>idx:0, tid:0
+I (3113) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:3, winSize:64
+I (3603) wifi:<ba-del>idx:0, tid:0
+I (3603) wifi:<ba-add>idx:0 (ifx:0, 48:22:54:81:c5:93), tid:0, ssn:5, winSize:64
+[0;32mI (20813) WiFi_STA: Other event id:7[0m
+[0;31mE (20853) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (20853) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (20863) esp-tls: create_ssl_handle failed[0m
+[0;31mE (20863) esp-tls: Failed to open new connection[0m
+[0;31mE (20873) transport_base: Failed to open a new connection[0m
+[0;31mE (20883) mqtt_client: Error transport connect[0m
+[0;32mI (20883) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (20883) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (20893) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (20893) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (35903) WiFi_STA: Other event id:7[0m
+[0;31mE (36093) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (36093) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (36103) esp-tls: create_ssl_handle failed[0m
+[0;31mE (36103) esp-tls: Failed to open new connection[0m
+[0;31mE (36113) transport_base: Failed to open a new connection[0m
+[0;31mE (36123) mqtt_client: Error transport connect[0m
+[0;32mI (36123) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (36123) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (36133) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (36143) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (51143) WiFi_STA: Other event id:7[0m
+[0;31mE (51343) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (51353) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (51363) esp-tls: create_ssl_handle failed[0m
+[0;31mE (51363) esp-tls: Failed to open new connection[0m
+[0;31mE (51373) transport_base: Failed to open a new connection[0m
+[0;31mE (51373) mqtt_client: Error transport connect[0m
+[0;32mI (51383) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (51383) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (51393) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (51393) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (61403) WiFi_STA: Other event id:7[0m
+[0;31mE (61413) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (61413) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (61423) esp-tls: create_ssl_handle failed[0m
+[0;31mE (61423) esp-tls: Failed to open new connection[0m
+[0;31mE (61433) transport_base: Failed to open a new connection[0m
+[0;31mE (61443) mqtt_client: Error transport connect[0m
+[0;32mI (61443) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (61443) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (61453) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (61463) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (76463) WiFi_STA: Other event id:7[0m
+[0;31mE (76473) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (76473) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (76483) esp-tls: create_ssl_handle failed[0m
+[0;31mE (76493) esp-tls: Failed to open new connection[0m
+[0;31mE (76493) transport_base: Failed to open a new connection[0m
+[0;31mE (76503) mqtt_client: Error transport connect[0m
+[0;32mI (76503) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (76513) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (76513) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (76523) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (91523) WiFi_STA: Other event id:7[0m
+[0;31mE (91533) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (91533) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (91543) esp-tls: create_ssl_handle failed[0m
+[0;31mE (91553) esp-tls: Failed to open new connection[0m
+[0;31mE (91553) transport_base: Failed to open a new connection[0m
+[0;31mE (91563) mqtt_client: Error transport connect[0m
+[0;32mI (91563) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (91573) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (91573) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (91583) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (106583) WiFi_STA: Other event id:7[0m
+[0;31mE (106743) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (106743) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (106763) esp-tls: create_ssl_handle failed[0m
+[0;31mE (106763) esp-tls: Failed to open new connection[0m
+[0;31mE (106773) transport_base: Failed to open a new connection[0m
+[0;31mE (106773) mqtt_client: Error transport connect[0m
+[0;32mI (106783) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (106783) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (106793) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (106793) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (116803) WiFi_STA: Other event id:7[0m
+[0;31mE (116993) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (116993) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (117003) esp-tls: create_ssl_handle failed[0m
+[0;31mE (117013) esp-tls: Failed to open new connection[0m
+[0;31mE (117013) transport_base: Failed to open a new connection[0m
+[0;31mE (117023) mqtt_client: Error transport connect[0m
+[0;32mI (117023) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (117033) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (117033) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (117043) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (127053) WiFi_STA: Other event id:7[0m
+[0;31mE (127223) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (127223) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (127243) esp-tls: create_ssl_handle failed[0m
+[0;31mE (127243) esp-tls: Failed to open new connection[0m
+[0;31mE (127253) transport_base: Failed to open a new connection[0m
+[0;31mE (127253) mqtt_client: Error transport connect[0m
+[0;32mI (127263) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (127263) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (127273) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (127273) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (137283) WiFi_STA: Other event id:7[0m
+[0;31mE (137293) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (137293) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (137303) esp-tls: create_ssl_handle failed[0m
+[0;31mE (137303) esp-tls: Failed to open new connection[0m
+[0;31mE (137313) transport_base: Failed to open a new connection[0m
+[0;31mE (137323) mqtt_client: Error transport connect[0m
+[0;32mI (137323) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (137323) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (137333) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (137343) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (152343) WiFi_STA: Other event id:7[0m
+[0;31mE (152523) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (152523) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (152533) esp-tls: create_ssl_handle failed[0m
+[0;31mE (152533) esp-tls: Failed to open new connection[0m
+[0;31mE (152543) transport_base: Failed to open a new connection[0m
+[0;31mE (152553) mqtt_client: Error transport connect[0m
+[0;32mI (152553) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (152553) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (152563) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (152573) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (167573) WiFi_STA: Other event id:7[0m
+[0;31mE (167773) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (167773) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (167793) esp-tls: create_ssl_handle failed[0m
+[0;31mE (167793) esp-tls: Failed to open new connection[0m
+[0;31mE (167803) transport_base: Failed to open a new connection[0m
+[0;31mE (167803) mqtt_client: Error transport connect[0m
+[0;32mI (167813) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (167813) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (167823) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (167823) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+[0;32mI (177833) WiFi_STA: Other event id:7[0m
+W (177843) wifi:[ADDBA]rx delba, code:37, delete tid:5
+[0;31mE (178023) esp-tls-mbedtls: No server verification option set in esp_tls_cfg_t structure. Check esp_tls API reference[0m
+[0;31mE (178023) esp-tls-mbedtls: Failed to set client configurations, returned [0x8017] (ESP_ERR_MBEDTLS_SSL_SETUP_FAILED)[0m
+[0;31mE (178033) esp-tls: create_ssl_handle failed[0m
+[0;31mE (178043) esp-tls: Failed to open new connection[0m
+[0;31mE (178043) transport_base: Failed to open a new connection[0m
+[0;31mE (178053) mqtt_client: Error transport connect[0m
+[0;32mI (178053) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (178063) WiFi_STA: Last error reported from esp-tls: 0x8017[0m
+[0;32mI (178063) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (178073) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m

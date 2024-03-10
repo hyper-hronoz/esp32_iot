@@ -1,0 +1,1507 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 10 2024 12:45:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09a1ch ( 39452) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019a44 vaddr=3ffb0000 size=02254h (  8788) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0001bca0 vaddr=40080000 size=04378h ( 17272) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13ec4h ( 81604) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00033eec vaddr=40084378 size=083d8h ( 33752) load[0m
+[0;32mI (180) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (180) boot: Disabling RNG early entropy source...[0m
+[0;32mI (191) cpu_start: Multicore app[0m
+[0;32mI (200) cpu_start: Pro cpu start user code[0m
+[0;32mI (200) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (200) cpu_start: Application information:[0m
+[0;32mI (203) cpu_start: Project name:     hello_world[0m
+[0;32mI (208) cpu_start: App version:      1[0m
+[0;32mI (213) cpu_start: Compile time:     Mar 10 2024 12:45:21[0m
+[0;32mI (219) cpu_start: ELF file SHA256:  c5c45c4bb...[0m
+[0;32mI (224) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (229) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (234) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (239) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (244) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (251) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (257) heap_init: At 3FFB2B20 len 0002D4E0 (181 KiB): DRAM[0m
+[0;32mI (263) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (269) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (276) heap_init: At 4008C750 len 000138B0 (78 KiB): IRAM[0m
+[0;32mI (283) spi_flash: detected chip: generic[0m
+[0;32mI (287) spi_flash: flash io: dio[0m
+[0;33mW (290) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (304) main_task: Started on CPU0[0m
+[0;32mI (314) main_task: Calling app_main()[0m
+Hello world!
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 300796 bytes
+Starting DHT Task
+
+=== Reading DHT ===
+[0;31mE (324) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (354) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (384) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (414) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (444) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (474) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (504) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (534) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (564) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (594) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (624) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (654) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (684) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (714) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (744) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (774) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (804) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (834) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (864) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (894) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (924) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (954) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (984) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1014) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1044) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1074) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1104) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1134) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1164) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1194) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1224) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1254) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1284) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1314) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1344) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1374) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1404) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1434) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1464) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1494) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1524) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1554) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1584) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1614) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1644) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1674) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1704) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1734) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1764) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1794) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1824) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1854) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1884) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1914) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1944) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (1974) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2004) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2034) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2064) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2094) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2124) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2154) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2184) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2214) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2244) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2274) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2304) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2334) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2364) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2394) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2424) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2454) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2484) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2514) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2544) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2574) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2604) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2634) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2664) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2694) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2724) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2754) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2784) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2814) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2844) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2874) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2904) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2934) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2964) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (2994) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3024) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3054) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3084) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3114) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3144) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3174) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3204) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3234) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3264) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3294) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3324) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3354) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3384) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3414) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3444) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3474) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3504) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3534) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3564) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3594) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3624) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3654) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3684) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3714) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3744) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3774) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3804) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3834) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3864) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3894) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3924) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3954) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (3984) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4014) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4044) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4074) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4104) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4134) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4164) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4194) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4224) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4254) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4284) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4314) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4344) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4374) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4404) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4434) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4464) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4494) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4524) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4554) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4584) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4614) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4644) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4674) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4704) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4734) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4764) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4794) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4824) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4854) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4884) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4914) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4944) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (4974) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5004) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5034) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5064) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5094) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5124) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5154) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5184) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5214) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5244) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5274) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5304) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5334) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5364) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5394) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5424) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5454) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5484) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5514) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5544) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5574) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5604) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5634) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5664) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5694) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5724) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5754) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5784) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5814) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5844) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5874) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5904) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5934) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5964) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (5994) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6024) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6054) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6084) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6114) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6144) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6174) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6204) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6234) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6264) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6294) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6324) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6354) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6384) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6414) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6444) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6474) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6504) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6534) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6564) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6594) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6624) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6654) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6684) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6714) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6744) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6774) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6804) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6834) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6864) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6894) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6924) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6954) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (6984) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7014) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7044) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7074) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7104) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7134) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7164) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7194) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7224) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7254) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7284) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7314) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7344) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7374) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7404) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7434) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7464) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7494) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7524) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7554) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7584) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7614) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7644) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7674) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7704) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7734) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7764) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7794) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7824) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7854) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7884) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7914) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7944) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (7974) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8004) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8034) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8064) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8094) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8124) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8154) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8184) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8214) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8244) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8274) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8304) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8334) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8364) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8394) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8424) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8454) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8484) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8514) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8544) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8574) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8604) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8634) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8664) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8694) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8724) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8754) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8784) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8814) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8844) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8874) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8904) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8934) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===
+[0;31mE (8964) DHT: Sensor Timeout
+[0m
+Hum 0.0
+Tmp 0.0
+=== Reading DHT ===

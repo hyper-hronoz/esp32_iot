@@ -1,0 +1,1076 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x400815ea: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x400857f1: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x4008b0e1: abort at /home/hronoz/esp/esp-idf/components/newlib/abort.c:38
+0x40086073: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:138
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+E

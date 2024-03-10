@@ -1,0 +1,27 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/hronoz/esp/hello_world/build/bootloader/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hronoz/esp/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/9] No install step for 'bootloader'
+[3/9] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+/home/hronoz/esp/hello_world/main/hello_world_main.c: In function 'mqtt_app_start':
+/home/hronoz/esp/hello_world/main/hello_world_main.c:111:62: warning: passing argument 3 of 'esp_mqtt_client_register_event' from incompatible pointer type [-Wincompatible-pointer-types]
+  111 |     esp_mqtt_client_register_event(client, ESP_EVENT_ANY_ID, mqtt_event_handler, client);
+      |                                                              ^~~~~~~~~~~~~~~~~~
+      |                                                              |
+      |                                                              esp_err_t (*)(esp_mqtt_event_t *) {aka int (*)(esp_mqtt_event_t *)}
+In file included from /home/hronoz/esp/hello_world/main/hello_world_main.c:14:
+/home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/include/mqtt_client.h:625:29: note: expected 'esp_event_handler_t' {aka 'void (*)(void *, const char *, long int,  void *)'} but argument is of type 'esp_err_t (*)(esp_mqtt_event_t *)' {aka 'int (*)(esp_mqtt_event_t *)'}
+  625 |         esp_event_handler_t event_handler,
+      |         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+[4/9] Completed 'bootloader'
+[5/9] Linking C static library esp-idf/main/libmain.a
+[6/9] Generating ld/sections.ld
+[7/9] Linking CXX executable hello_world.elf
+[8/9] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/hronoz/esp/hello_world/build/hello_world.bin
+[9/9] cd /home/hronoz/esp/hello_world/build/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hronoz/esp/hello_world/build/partition_table/partition-table.bin /home/hronoz/esp/hello_world/build/hello_world.bin
+hello_world.bin binary size 0xa1290 bytes. Smallest app partition is 0x100000 bytes. 0x5ed70 bytes (37%) free.

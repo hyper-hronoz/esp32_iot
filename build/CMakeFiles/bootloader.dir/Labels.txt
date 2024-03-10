@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hronoz/esp/hello_world/build/CMakeFiles/bootloader
+/home/hronoz/esp/hello_world/build/CMakeFiles/bootloader.rule
+/home/hronoz/esp/hello_world/build/CMakeFiles/bootloader-complete.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hronoz/esp/hello_world/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

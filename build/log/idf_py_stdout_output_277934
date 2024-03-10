@@ -1,0 +1,79 @@
+[1/10] Performing build step for 'bootloader'
+[1/1] cd /home/hronoz/esp/hello_world/build/bootloader/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hronoz/esp/hello_world/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[2/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/hello_world_main.c.obj
+[3/10] No install step for 'bootloader'
+[4/10] Linking C static library esp-idf/main/libmain.a
+[5/10] Completed 'bootloader'
+[6/10] Generating ld/sections.ld
+[7/10] Linking CXX executable hello_world.elf
+[8/10] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/hronoz/esp/hello_world/build/hello_world.bin
+[9/10] cd /home/hronoz/esp/hello_world/build/esp-idf/esptool_py && /home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python /home/hronoz/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hronoz/esp/hello_world/build/partition_table/partition-table.bin /home/hronoz/esp/hello_world/build/hello_world.bin
+hello_world.bin binary size 0xbca40 bytes. Smallest app partition is 0x100000 bytes. 0x435c0 bytes (26%) free.
+[9/10] cd /home/hronoz/esp/esp-idf/components/esptool_py && /usr/bin/cmake -D IDF_PATH=/home/hronoz/esp/esp-idf -D "SERIAL_TOOL=/home/hronoz/.espressif/python_env/idf5.2_py3.11_env/bin/python;;/home/hronoz/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32" -D "SERIAL_TOOL_ARGS=--before=default_reset;--after=hard_reset;write_flash;@flash_args" -D WORKING_DIRECTORY=/home/hronoz/esp/hello_world/build -P /home/hronoz/esp/esp-idf/components/esptool_py/run_serial_tool.cmake
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 2MB 0x1000 bootloader/bootloader.bin 0x10000 hello_world.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.7.0
+Serial port /dev/ttyUSB0
+Connecting......
+Chip is ESP32-D0WD-V3 (revision v3.1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: 08:d1:f9:e1:84:ec
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x000ccfff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+Compressed 26720 bytes to 16358...
+Writing at 0x00001000... (100 %)
+Wrote 26720 bytes (16358 compressed) at 0x00001000 in 0.5 seconds (effective 395.1 kbit/s)...
+Hash of data verified.
+Compressed 772672 bytes to 487042...
+Writing at 0x00010000... (3 %)
+Writing at 0x0001c7de... (6 %)
+Writing at 0x000230ec... (10 %)
+Writing at 0x00028311... (13 %)
+Writing at 0x000352bd... (16 %)
+Writing at 0x0003b293... (20 %)
+Writing at 0x00040d82... (23 %)
+Writing at 0x00046612... (26 %)
+Writing at 0x0004c145... (30 %)
+Writing at 0x00051fc5... (33 %)
+Writing at 0x00058326... (36 %)
+Writing at 0x0005e017... (40 %)
+Writing at 0x000632d5... (43 %)
+Writing at 0x000686bb... (46 %)
+Writing at 0x0006dbdd... (50 %)
+Writing at 0x00072eef... (53 %)
+Writing at 0x000785d4... (56 %)
+Writing at 0x0007de2d... (60 %)
+Writing at 0x00083cfd... (63 %)
+Writing at 0x000894a7... (66 %)
+Writing at 0x0008f045... (70 %)
+Writing at 0x00094d14... (73 %)
+Writing at 0x0009a5bd... (76 %)
+Writing at 0x000a0230... (80 %)
+Writing at 0x000a5d1a... (83 %)
+Writing at 0x000ab6b6... (86 %)
+Writing at 0x000b5587... (90 %)
+Writing at 0x000bcb6c... (93 %)
+Writing at 0x000c301e... (96 %)
+Writing at 0x000c8893... (100 %)
+Wrote 772672 bytes (487042 compressed) at 0x00010000 in 11.0 seconds (effective 562.6 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 1353.4 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
