@@ -1,0 +1,58 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40089b0a: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:828
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40087d6b: xt_utils_compare_and_set at /home/hronoz/esp/esp-idf/components/xtensa/include/xt_utils.h:215
+ (inlined by) esp_cpu_compare_and_set at /home/hronoz/esp/esp-idf/components/esp_hw_support/cpu.c:491
+[0m
+[0;33m0x4000c46c: memset in ROM
+0x4000c477: memset in ROM
+[0m
+[0;33m0x40087d68: esp_cpu_compare_and_set at /home/hronoz/esp/esp-idf/components/esp_hw_support/cpu.c:459
+0x40089e71: spinlock_acquire at /home/hronoz/esp/esp-idf/components/esp_hw_support/include/spinlock.h:130
+ (inlined by) xPortEnterCriticalTimeout at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:473
+0x40089a4c: vPortEnterCritical at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos/portmacro.h:571
+ (inlined by) xQueueSemaphoreTake at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1727
+0x40089b26: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40087e5e: esp_cpu_wait_for_intr at /home/hronoz/esp/esp-idf/components/esp_hw_support/cpu.c:145
+[0m
+[0;33m0x40084f48: ipc_task at /home/hronoz/esp/esp-idf/components/esp_system/esp_ipc.c:48
+[0m
+[0;33m0x40087e5b: xt_utils_wait_for_intr at /home/hronoz/esp/esp-idf/components/xtensa/include/xt_utils.h:81
+ (inlined by) esp_cpu_wait_for_intr at /home/hronoz/esp/esp-idf/components/esp_hw_support/cpu.c:132
+0x400d325b: esp_vApplicationIdleHook at /home/hronoz/esp/esp-idf/components/esp_system/freertos_hooks.c:59
+0x4008ace1: prvIdleTask at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/tasks.c:4273 (discriminator 1)
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

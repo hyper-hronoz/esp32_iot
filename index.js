@@ -4,7 +4,7 @@ const express = require("express");
 const app = express()
 
 // MQTT broker address and port
-const MQTT_BROKER = '192.168.0.147';
+const MQTT_BROKER = '192.168.244.82';
 const MQTT_PORT = 1883;
 
 // MQTT topic to subscribe to
@@ -14,9 +14,7 @@ const MQTT_TOPIC = 'test';
 const client = mqtt.connect(`mqtt://${MQTT_BROKER}:${MQTT_PORT}`);
 
 // Callback function to handle incoming MQTT messages
-const current_msg = "";
 client.on('message', function(topic, message) {
-    current_msg = msg;
     console.log(`Received message: ${message.toString()}`);
 });
 

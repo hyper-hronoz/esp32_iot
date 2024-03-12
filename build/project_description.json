@@ -1,15 +1,15 @@
 {
     "version":            "1.1",
-    "project_name":       "hello_world",
-    "project_version":    "1",
+    "project_name":       "esp32_iot",
+    "project_version":    "f57c9f4-dirty",
     "project_path":       "/home/hronoz/esp/hello_world",
     "idf_path":           "/home/hronoz/esp/esp-idf",
     "build_dir":          "/home/hronoz/esp/hello_world/build",
     "config_file":        "/home/hronoz/esp/hello_world/sdkconfig",
     "config_defaults":    "",
     "bootloader_elf":     "/home/hronoz/esp/hello_world/build/bootloader/bootloader.elf",
-    "app_elf":            "hello_world.elf",
-    "app_bin":            "hello_world.bin",
+    "app_elf":            "esp32_iot.elf",
+    "app_bin":            "esp32_iot.bin",
     "build_type":         "flash_app",
     "git_revision":       "v5.2.1",
     "target":             "esp32",
@@ -805,7 +805,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/hronoz/esp/hello_world/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/hronoz/esp/hello_world/main/hello_world_main.c", "/home/hronoz/esp/hello_world/main/DHT22.c" ],
+            "sources": [ "/home/hronoz/esp/hello_world/main/main.c", "/home/hronoz/esp/hello_world/main/DHT11.c" ],
             "include_dirs": []
         },
         "mbedtls": {

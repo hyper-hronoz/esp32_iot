@@ -11,7 +11,7 @@
 /home/hronoz/esp/hello_world/build/CMakeFiles/flash.dir
 /home/hronoz/esp/hello_world/build/CMakeFiles/encrypted-flash.dir
 /home/hronoz/esp/hello_world/build/CMakeFiles/_project_elf_src.dir
-/home/hronoz/esp/hello_world/build/CMakeFiles/hello_world.elf.dir
+/home/hronoz/esp/hello_world/build/CMakeFiles/esp32_iot.elf.dir
 /home/hronoz/esp/hello_world/build/CMakeFiles/size.dir
 /home/hronoz/esp/hello_world/build/CMakeFiles/size-files.dir
 /home/hronoz/esp/hello_world/build/CMakeFiles/size-components.dir

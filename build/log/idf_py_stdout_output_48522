@@ -1,0 +1,790 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 10 2024 12:45:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=26978h (158072) map[0m
+[0;32mI (158) esp_image: segment 1: paddr=000369a0 vaddr=3ffb0000 size=03c5ch ( 15452) load[0m
+[0;32mI (164) esp_image: segment 2: paddr=0003a604 vaddr=40080000 size=05a14h ( 23060) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=98d0ch (625932) map[0m
+[0;32mI (388) esp_image: segment 4: paddr=000d8d34 vaddr=40085a14 size=10c9ch ( 68764) load[0m
+[0;32mI (427) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (427) boot: Disabling RNG early entropy source...[0m
+[0;32mI (438) cpu_start: Multicore app[0m
+[0;32mI (447) cpu_start: Pro cpu start user code[0m
+[0;32mI (447) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (447) cpu_start: Application information:[0m
+[0;32mI (450) cpu_start: Project name:     hello_world[0m
+[0;32mI (456) cpu_start: App version:      1[0m
+[0;32mI (460) cpu_start: Compile time:     Mar 10 2024 18:41:57[0m
+[0;32mI (466) cpu_start: ELF file SHA256:  dcbccec5b...[0m
+[0;32mI (471) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (476) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (481) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (486) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (491) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (498) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (504) heap_init: At 3FFB8370 len 00027C90 (159 KiB): DRAM[0m
+[0;32mI (510) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (516) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (523) heap_init: At 400966B0 len 00009950 (38 KiB): IRAM[0m
+[0;32mI (531) spi_flash: detected chip: generic[0m
+[0;32mI (534) spi_flash: flash io: dio[0m
+[0;33mW (538) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (552) main_task: Started on CPU0[0m
+[0;32mI (562) main_task: Calling app_main()[0m
+Esp32 serial on
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 275816 bytes
+I (612) wifi:wifi driver task: 3ffc036c, prio:23, stack:6656, core=0
+I (632) wifi:wifi firmware version: a9f5b59
+I (632) wifi:wifi certification version: v7.0
+I (632) wifi:config NVS flash: enabled
+I (632) wifi:config nano formating: disabled
+I (642) wifi:Init data frame dynamic rx buffer num: 32
+I (642) wifi:Init static rx mgmt buffer num: 5
+I (642) wifi:Init management short buffer num: 32
+I (652) wifi:Init dynamic tx buffer num: 32
+I (652) wifi:Init static rx buffer size: 1600
+I (662) wifi:Init static rx buffer num: 10
+I (662) wifi:Init dynamic rx buffer num: 32
+[0;32mI (672) wifi_init: rx ba win: 6[0m
+[0;32mI (672) wifi_init: tcpip mbox: 32[0m
+[0;32mI (672) wifi_init: udp mbox: 6[0m
+[0;32mI (682) wifi_init: tcp mbox: 6[0m
+[0;32mI (682) wifi_init: tcp tx win: 5760[0m
+[0;32mI (682) wifi_init: tcp rx win: 5760[0m
+[0;32mI (692) wifi_init: tcp mss: 1440[0m
+[0;32mI (692) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (702) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (702) phy_init: phy_version 4791,2c4672b,Dec 20 2023,16:06:06[0m
+I (802) wifi:mode : sta (08:d1:f9:e1:84:ec)
+I (802) wifi:enable tsf
+WIFI CONNECTING....
+wifi_init_softap finished. SSID:test  password:lolkek227
+I (812) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (822) wifi:state: init -> auth (b0)
+[0;32mI (822) WiFi_STA: Other event id:7[0m
+I (822) wifi:state: auth -> assoc (0)
+[0;31mE (822) esp-tls: [sock=54] connect() error: Host is unreachable[0m
+[0;31mE (832) transport_base: Failed to open a new connection: 32772[0m
+[0;31mE (832) mqtt_client: Error transport connect[0m
+[0;32mI (842) WiFi_STA: MQTT_EVENT_ERROR[0m
+[0;31mE (842) WiFi_STA: Last error reported from esp-tls: 0x8004[0m
+[0;32mI (852) WiFi_STA: Last errno string (Success)[0m
+[0;32mI (852) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+I (852) wifi:state: assoc -> run (10)
+I (882) wifi:connected with test, aid = 8, channel 11, BW20, bssid = 76:97:62:9d:67:d4
+I (882) wifi:security: WPA2-PSK, phy: bgn, rssi: -38
+I (882) wifi:pm start, type: 1
+
+I (882) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+WiFi CONNECTED
+I (952) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (952) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+Temperature 24
+Humandity 28
+[0;32mI (1892) esp_netif_handlers: sta ip: 192.168.244.35, mask: 255.255.255.0, gw: 192.168.244.70[0m
+Wifi got IP...
+
+Temperature 24
+Humandity 28
+Temperature 24
+Humandity 28
+Temperature 24
+Humandity 28
+Temperature 48
+Humandity 56
+Temperature 48
+Humandity 56
+Temperature 24
+Humandity 28
+Temperature 24
+Humandity 28
+Temperature 24
+Humandity 27
+[0;32mI (10872) WiFi_STA: Other event id:7[0m
+I (10882) wifi:<ba-add>idx:0 (ifx:0, 76:97:62:9d:67:d4), tid:0, ssn:4, winSize:64
+[0;32mI (10902) WiFi_STA: MQTT_EVENT_CONNECTED[0m
+[0;32mI (10902) WiFi_STA: sent publish successful, msg_id=42218[0m
+[0;32mI (10902) WiFi_STA: sent subscribe successful, msg_id=59968[0m
+[0;32mI (10902) WiFi_STA: sent subscribe successful, msg_id=15060[0m
+[0;32mI (10912) WiFi_STA: sent unsubscribe successful, msg_id=60824[0m
+Temperature 24
+Humandity 27
+[0;32mI (10922) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=42218[0m
+[0;32mI (10932) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=59968[0m
+[0;32mI (10942) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (10942) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=15060[0m
+[0;32mI (10942) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (10952) WiFi_STA: MQTT_EVENT_UNSUBSCRIBED, msg_id=60824[0m
+[0;32mI (10962) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48293[0m
+[0;32mI (10962) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16541[0m
+[0;32mI (10992) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=12214[0m
+[0;32mI (11002) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22554[0m
+[0;32mI (11012) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55323[0m
+[0;32mI (11022) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16888[0m
+[0;32mI (11022) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=43797[0m
+[0;32mI (11032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=43765[0m
+[0;32mI (11032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3840[0m
+[0;32mI (11032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23779[0m
+Temperature 24
+Humandity 27
+[0;32mI (12222) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45171[0m
+Temperature 24
+Humandity 27
+[0;32mI (12952) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56851[0m
+Temperature 48
+Humandity 54
+[0;32mI (14272) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55482[0m
+Temperature 48
+Humandity 54
+[0;32mI (14972) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3437[0m
+Temperature 24
+Humandity 27
+[0;32mI (16322) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34491[0m
+Temperature 24
+Humandity 27
+[0;32mI (16992) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5396[0m
+Temperature 48
+Humandity 54
+[0;32mI (18162) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18775[0m
+Temperature 48
+Humandity 54
+[0;32mI (19182) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55451[0m
+Temperature 24
+Humandity 23
+[0;32mI (20212) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8507[0m
+Temperature 24
+Humandity 23
+[0;32mI (21032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34420[0m
+Temperature 48
+Humandity 54
+[0;32mI (22262) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3417[0m
+Temperature 48
+Humandity 54
+[0;32mI (23082) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59560[0m
+Temperature 24
+Humandity 27
+[0;32mI (24302) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54362[0m
+Temperature 24
+Humandity 27
+[0;32mI (25332) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=41247[0m
+Temperature 24
+Humandity 27
+[0;32mI (26092) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49055[0m
+Temperature 24
+Humandity 27
+[0;32mI (27372) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=27271[0m
+Temperature 24
+Humandity 24
+[0;32mI (28402) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63769[0m
+Temperature 24
+Humandity 24
+[0;32mI (29112) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26686[0m
+Temperature 24
+Humandity 27
+[0;32mI (30452) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=31249[0m
+Temperature 24
+Humandity 27
+[0;32mI (31272) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40087[0m
+Temperature 24
+Humandity 27
+[0;32mI (32292) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35534[0m
+Temperature 24
+Humandity 27
+[0;32mI (33312) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53877[0m
+Temperature 24
+Humandity 24
+[0;32mI (34182) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38675[0m
+Temperature 24
+Humandity 24
+[0;32mI (35182) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55221[0m
+Temperature 96
+Humandity 108
+[0;32mI (36192) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24955[0m
+Temperature 96
+Humandity 108
+[0;32mI (37192) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32641[0m
+Temperature 48
+Humandity 54
+[0;32mI (38432) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21771[0m
+Temperature 48
+Humandity 54
+[0;32mI (39462) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=19935[0m
+Temperature 24
+Humandity 24
+[0;32mI (40482) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=15406[0m
+Temperature 24
+Humandity 24
+[0;32mI (41232) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=57111[0m
+Temperature 48
+Humandity 54
+[0;32mI (42532) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=814[0m
+Temperature 48
+Humandity 54
+[0;32mI (43552) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37177[0m
+Temperature 24
+Humandity 27
+[0;32mI (44582) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18034[0m
+Temperature 24
+Humandity 27
+[0;32mI (45602) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58286[0m
+Temperature 24
+Humandity 24
+[0;32mI (46632) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=33021[0m
+Temperature 24
+Humandity 24
+[0;32mI (47452) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18498[0m
+Temperature 24
+Humandity 27
+[0;32mI (48312) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44096[0m
+Temperature 24
+Humandity 27
+[0;32mI (49312) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=47764[0m
+Temperature 24
+Humandity 27
+[0;32mI (50332) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49305[0m
+Temperature 24
+Humandity 27
+[0;32mI (51542) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24095[0m
+Temperature 24
+Humandity 27
+[0;32mI (52392) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23551[0m
+Temperature 24
+Humandity 27
+[0;32mI (53352) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39287[0m
+Temperature 48
+Humandity 54
+[0;32mI (54382) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53647[0m
+Temperature 48
+Humandity 54
+[0;32mI (55372) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=4393[0m
+Temperature 48
+Humandity 54
+[0;32mI (56392) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52229[0m
+Temperature 48
+Humandity 54
+[0;32mI (57392) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3092[0m
+Temperature 48
+Humandity 54
+[0;32mI (58412) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29173[0m
+Temperature 48
+Humandity 54
+[0;32mI (59412) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18309[0m
+Temperature 48
+Humandity 54
+[0;32mI (60432) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1035[0m
+Temperature 48
+Humandity 54
+[0;32mI (61432) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60252[0m
+Temperature 48
+Humandity 54
+[0;32mI (62452) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36691[0m
+Temperature 48
+Humandity 54
+[0;32mI (63622) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45047[0m
+Temperature 24
+Humandity 27
+[0;32mI (64482) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=27758[0m
+Temperature 24
+Humandity 27
+[0;32mI (65672) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=30562[0m
+Temperature 24
+Humandity 27
+[0;32mI (66702) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34496[0m
+Temperature 24
+Humandity 27
+[0;32mI (67512) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=13582[0m
+Temperature 24
+Humandity 24
+[0;32mI (68742) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21549[0m
+Temperature 24
+Humandity 24
+[0;32mI (69522) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59593[0m
+Temperature 24
+Humandity 27
+[0;32mI (70532) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=20491[0m
+Temperature 24
+Humandity 27
+[0;32mI (71532) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34159[0m
+Temperature 24
+Humandity 27
+[0;32mI (72552) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1789[0m
+Temperature 24
+Humandity 27
+[0;32mI (73552) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51851[0m
+Temperature 48
+Humandity 54
+[0;32mI (74572) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8549[0m
+Temperature 48
+Humandity 54
+[0;32mI (75572) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=15020[0m
+Temperature 48
+Humandity 48
+[0;32mI (76592) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21431[0m
+Temperature 48
+Humandity 48
+[0;32mI (77592) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49192[0m
+Temperature 24
+Humandity 27
+[0;32mI (78612) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63332[0m
+Temperature 24
+Humandity 27
+[0;32mI (79612) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14714[0m
+Temperature -1
+Humandity -1
+[0;32mI (80632) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44751[0m
+Temperature -1
+Humandity -1
+[0;32mI (81642) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34143[0m
+Temperature 48
+Humandity 54
+[0;32mI (82692) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48665[0m
+Temperature 48
+Humandity 54
+[0;32mI (83682) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=33062[0m
+Temperature 24
+Humandity 23
+[0;32mI (84922) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55472[0m
+Temperature 24
+Humandity 23
+[0;32mI (85682) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=47420[0m
+Temperature 48
+Humandity 46
+[0;32mI (86972) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14580[0m
+Temperature 48
+Humandity 46
+[0;32mI (87992) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44656[0m
+Temperature 24
+Humandity 24
+[0;32mI (88762) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=46879[0m
+Temperature 24
+Humandity 24
+[0;32mI (89752) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49144[0m
+Temperature 24
+Humandity 27
+[0;32mI (90762) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24170[0m
+Temperature 24
+Humandity 27
+[0;32mI (92102) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14086[0m
+Temperature 24
+Humandity 27
+[0;32mI (92912) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=20968[0m
+Temperature 24
+Humandity 27
+[0;32mI (93932) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49834[0m
+Temperature 24
+Humandity 24
+[0;32mI (94782) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63996[0m
+Temperature 24
+Humandity 24
+[0;32mI (95792) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=20536[0m
+Temperature 24
+Humandity 27
+[0;32mI (97012) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49868[0m
+Temperature 24
+Humandity 27
+[0;32mI (97842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1440[0m
+Temperature 24
+Humandity 27
+[0;32mI (99052) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=17450[0m
+Temperature 24
+Humandity 27
+[0;32mI (99862) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52859[0m
+Temperature 24
+Humandity 27
+[0;32mI (100842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=19306[0m
+Temperature 24
+Humandity 27
+[0;32mI (101922) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25456[0m
+Temperature 24
+Humandity 24
+[0;32mI (102952) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=28981[0m
+Temperature 24
+Humandity 24
+[0;32mI (103862) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=33825[0m
+Temperature 24
+Humandity 24
+[0;32mI (105202) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60559[0m
+Temperature 24
+Humandity 24
+[0;32mI (106022) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=2907[0m
+Temperature 24
+Humandity 24
+[0;32mI (107042) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35615[0m
+Temperature 24
+Humandity 24
+[0;32mI (108072) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=57387[0m
+Temperature 24
+Humandity 24
+[0;32mI (108922) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61186[0m
+Temperature 24
+Humandity 24
+[0;32mI (109922) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18296[0m
+Temperature -1
+Humandity -1
+[0;32mI (111142) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56595[0m
+Temperature -1
+Humandity -1
+[0;32mI (112162) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35350[0m
+Temperature 24
+Humandity 24
+[0;32mI (113002) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26894[0m
+Temperature 24
+Humandity 24
+[0;32mI (113962) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=246[0m
+Temperature 48
+Humandity 48
+[0;32mI (115232) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22058[0m
+Temperature 48
+Humandity 48
+[0;32mI (116262) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5835[0m
+Temperature 24
+Humandity 23
+[0;32mI (117282) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22481[0m
+Temperature 24
+Humandity 23
+[0;32mI (118312) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37816[0m
+Temperature 24
+Humandity 27
+[0;32mI (119332) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=12055[0m
+Temperature 24
+Humandity 27
+[0;32mI (120352) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32074[0m
+Temperature 24
+Humandity 27
+[0;32mI (121082) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54120[0m
+Temperature 24
+Humandity 27
+[0;32mI (122202) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=28399[0m
+Temperature 24
+Humandity 27
+[0;32mI (123062) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37676[0m
+Temperature 24
+Humandity 27
+[0;32mI (124242) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21249[0m
+Temperature 24
+Humandity 27
+[0;32mI (125082) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=28319[0m
+Temperature 24
+Humandity 27
+[0;32mI (126082) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5429[0m
+Temperature 48
+Humandity 54
+[0;32mI (127322) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56586[0m
+Temperature 48
+Humandity 54
+[0;32mI (128112) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=46472[0m
+Temperature 24
+Humandity 27
+[0;32mI (129122) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25777[0m
+Temperature 24
+Humandity 27
+[0;32mI (130392) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22500[0m
+Temperature 24
+Humandity 23
+[0;32mI (131412) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60054[0m
+Temperature 24
+Humandity 23
+[0;32mI (132442) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58544[0m
+Temperature 24
+Humandity 26
+[0;32mI (133162) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=27027[0m
+Temperature 24
+Humandity 26
+[0;32mI (134162) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=30535[0m
+Temperature 48
+Humandity 54
+[0;32mI (135182) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39039[0m
+Temperature 48
+Humandity 54
+[0;32mI (136222) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49261[0m
+Temperature 24
+Humandity 27
+[0;32mI (137352) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=13878[0m
+Temperature 24
+Humandity 27
+[0;32mI (138382) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63759[0m
+Temperature 24
+Humandity 26
+[0;32mI (139402) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14108[0m
+Temperature 24
+Humandity 26
+[0;32mI (140222) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59792[0m
+Temperature 48
+Humandity 52
+[0;32mI (141252) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61838[0m
+Temperature 48
+Humandity 52
+[0;32mI (142282) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37966[0m
+Temperature 24
+Humandity 27
+[0;32mI (143272) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53772[0m
+Temperature 24
+Humandity 27
+[0;32mI (144262) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=46144[0m
+Temperature 24
+Humandity 27
+[0;32mI (145542) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=50214[0m
+Temperature 24
+Humandity 27
+[0;32mI (146572) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=10975[0m
+Temperature 24
+Humandity 27
+[0;32mI (147592) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39397[0m
+Temperature 24
+Humandity 27
+[0;32mI (148622) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18969[0m
+Temperature 24
+Humandity 27
+[0;32mI (149352) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63403[0m
+Temperature 24
+Humandity 27
+[0;32mI (150362) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36380[0m
+Temperature 24
+Humandity 23
+[0;32mI (151342) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40770[0m
+Temperature 24
+Humandity 23
+[0;32mI (152512) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=11174[0m
+Temperature 24
+Humandity 26
+[0;32mI (153372) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51331[0m
+Temperature 24
+Humandity 26
+[0;32mI (154362) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52740[0m
+Temperature -1
+Humandity -1
+[0;32mI (155582) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=7840[0m
+Temperature -1
+Humandity -1
+[0;32mI (156602) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25936[0m
+Temperature 24
+Humandity 27
+[0;32mI (157632) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=42044[0m
+Temperature 24
+Humandity 27
+[0;32mI (158652) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=65428[0m
+Temperature 24
+Humandity 27
+[0;32mI (159672) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32758[0m
+Temperature 24
+Humandity 27
+[0;32mI (160702) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23152[0m
+Temperature 24
+Humandity 27
+[0;32mI (161452) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45701[0m
+Temperature 24
+Humandity 27
+[0;32mI (162752) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63227[0m
+Temperature 24
+Humandity 27
+[0;32mI (163772) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8212[0m
+Temperature 24
+Humandity 27
+[0;32mI (164792) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24512[0m
+Temperature 24
+Humandity 26
+[0;32mI (165492) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=47879[0m
+Temperature 24
+Humandity 26
+[0;32mI (166842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1805[0m
+Temperature 24
+Humandity 26
+[0;32mI (167662) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62357[0m
+Temperature 24
+Humandity 26
+[0;32mI (168522) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=43500[0m
+Temperature 24
+Humandity 26
+[0;32mI (169542) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45136[0m
+Temperature 24
+Humandity 26
+[0;32mI (170732) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34764[0m
+Temperature 24
+Humandity 26
+[0;32mI (171762) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14112[0m
+Temperature 24
+Humandity 26
+[0;32mI (172782) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3974[0m
+Temperature 24
+Humandity 27
+[0;32mI (173622) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52044[0m
+Temperature 24
+Humandity 27
+[0;32mI (174832) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9059[0m
+Temperature 24
+Humandity 27
+[0;32mI (175852) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45730[0m
+Temperature 24
+Humandity 27
+[0;32mI (176882) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24844[0m
+Temperature 24
+Humandity 27
+[0;32mI (177902) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40274[0m
+Temperature 24
+Humandity 27
+[0;32mI (178932) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1496[0m
+Temperature 24
+Humandity 27
+[0;32mI (179642) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38768[0m
+Temperature 24
+Humandity 27
+[0;32mI (180802) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59720[0m
+Temperature 24
+Humandity 27
+[0;32mI (182002) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62732[0m
+Temperature 24
+Humandity 27
+[0;32mI (182822) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63399[0m
+Temperature 24
+Humandity 27
+[0;32mI (183842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32764[0m
+Temperature 24
+Humandity 27
+[0;32mI (184862) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26686[0m
+Temperature 24
+Humandity 27
+[0;32mI (185892) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37709[0m
+Temperature 24
+Humandity 27
+[0;32mI (186702) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44743[0m
+Temperature 48
+Humandity 54
+[0;32mI (187752) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61818[0m
+Temperature 48
+Humandity 54
+[0;32mI (188962) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21982[0m
+Temperature 24
+Humandity 27
+[0;32mI (189772) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=19464[0m
+Temperature 24
+Humandity 27
+[0;32mI (191012) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22828[0m
+Temperature 24
+Humandity 27
+[0;32mI (192032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35819[0m
+Temperature 24
+Humandity 27
+[0;32mI (193062) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=15139[0m
+Temperature 24
+Humandity 27
+[0;32mI (193812) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62733[0m
+Temperature 24
+Humandity 27
+[0;32mI (195102) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54193[0m
+Temperature 24
+Humandity 27
+[0;32mI (195822) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=10064[0m
+Temperature 24
+Humandity 27
+[0;32mI (196802) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44140[0m
+Temperature 48
+Humandity 52
+[0;32mI (197972) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58084[0m
+Temperature 48
+Humandity 52
+[0;32mI (198822) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44391[0m
+Temperature 48
+Humandity 52
+[0;32mI (199842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16299[0m
+Temperature 48
+Humandity 52
+[0;32mI (200842) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44798[0m
+Temperature 48
+Humandity 52
+[0;32mI (202072) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55001[0m
+Temperature 48
+Humandity 52
+[0;32mI (203092) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=57814[0m
+Temperature 24
+Humandity 26
+[0;32mI (203882) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=33081[0m
+Temperature 24
+Humandity 26
+[0;32mI (205142) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=28076[0m
+Temperature 24
+Humandity 26
+[0;32mI (205902) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=4910[0m
+Temperature 24
+Humandity 26
+[0;32mI (207192) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18341[0m
+Temperature 24
+Humandity 20
+[0;32mI (207942) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62201[0m
+Temperature 24
+Humandity 20
+[0;32mI (209242) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3030[0m
+Temperature 24
+Humandity 26
+[0;32mI (210262) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=19641[0m
+Temperature 24
+Humandity 26
+[0;32mI (210952) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=31388[0m
+Temperature 48
+Humandity 52
+[0;32mI (212312) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36222[0m
+Temperature 48
+Humandity 52
+[0;32mI (213332) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48067[0m
+Temperature 24
+Humandity 20
+[0;32mI (214152) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40390[0m
+Temperature 24
+Humandity 20
+[0;32mI (214992) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34409[0m
+Temperature 24
+Humandity 26
+[0;32mI (216202) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52609[0m
+Temperature 24
+Humandity 26
+[0;32mI (217032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=4138[0m
+Temperature 24
+Humandity 26
+[0;32mI (218252) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=14889[0m
+Temperature 24
+Humandity 26
+[0;32mI (219032) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60954[0m
+Temperature 24
+Humandity 19
+[0;32mI (220302) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59058[0m
+Temperature 24
+Humandity 19
+[0;32mI (221322) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39140[0m
+Temperature 24
+Humandity 26
+[0;32mI (222342) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36063[0m
+Temperature 24
+Humandity 26
+[0;32mI (223072) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62891[0m
+Temperature 48
+Humandity 52
+[0;32mI (224092) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44792[0m
+Temperature 48
+Humandity 52
+[0;32mI (225412) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=63486[0m
+Temperature 24
+Humandity 19
+[0;32mI (226112) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=50747[0m

@@ -1,0 +1,150 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/ttyUSB0 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089a0a: xQueueSemaphoreTake at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40089b26: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089a0a: xQueueSemaphoreTake at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:1713 (discriminator 1)
+0x40089b26: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:835
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400817d2: panic_abort at /home/hronoz/esp/esp-idf/components/esp_system/panic.c:472
+0x40089111: esp_system_abort at /home/hronoz/esp/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090a05: __assert_func at /home/hronoz/esp/esp-idf/components/newlib/assert.c:81
+0x40089b07: xQueueTakeMutexRecursive at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/queue.c:821 (discriminator 1)
+0x400d9a06: esp_mqtt_client_publish at /home/hronoz/esp/esp-idf/components/mqtt/esp-mqtt/mqtt_client.c:2022
+0x400d6f6f: client_send_message at /home/hronoz/esp/hello_world/main/hello_world_main.c:76
+0x400d6fb2: DHT_task at /home/hronoz/esp/hello_world/main/hello_world_main.c:89
+0x40089c1d: vPortTaskWrapper at /home/hronoz/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
