@@ -1,0 +1,600 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 10 2024 12:45:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=26a48h (158280) map[0m
+[0;32mI (158) esp_image: segment 1: paddr=00036a70 vaddr=3ffb0000 size=03c5ch ( 15452) load[0m
+[0;32mI (164) esp_image: segment 2: paddr=0003a6d4 vaddr=40080000 size=05944h ( 22852) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=98d24h (625956) map[0m
+[0;32mI (388) esp_image: segment 4: paddr=000d8d4c vaddr=40085944 size=10d6ch ( 68972) load[0m
+[0;32mI (427) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (427) boot: Disabling RNG early entropy source...[0m
+[0;32mI (438) cpu_start: Multicore app[0m
+[0;32mI (447) cpu_start: Pro cpu start user code[0m
+[0;32mI (447) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (447) cpu_start: Application information:[0m
+[0;32mI (450) cpu_start: Project name:     esp32_iot[0m
+[0;32mI (455) cpu_start: App version:      14d68bc-dirty[0m
+[0;32mI (461) cpu_start: Compile time:     Mar 12 2024 12:32:39[0m
+[0;32mI (467) cpu_start: ELF file SHA256:  ef639da45...[0m
+[0;32mI (472) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (477) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (482) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (487) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (492) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (499) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFB8360 len 00027CA0 (159 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 400966B0 len 00009950 (38 KiB): IRAM[0m
+[0;32mI (532) spi_flash: detected chip: generic[0m
+[0;32mI (535) spi_flash: flash io: dio[0m
+[0;33mW (539) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (553) main_task: Started on CPU0[0m
+[0;32mI (563) main_task: Calling app_main()[0m
+Esp32 serial on
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 275832 bytes
+I (613) wifi:wifi driver task: 3ffc035c, prio:23, stack:6656, core=0
+I (633) wifi:wifi firmware version: a9f5b59
+I (633) wifi:wifi certification version: v7.0
+I (633) wifi:config NVS flash: enabled
+I (633) wifi:config nano formating: disabled
+I (643) wifi:Init data frame dynamic rx buffer num: 32
+I (643) wifi:Init static rx mgmt buffer num: 5
+I (643) wifi:Init management short buffer num: 32
+I (653) wifi:Init dynamic tx buffer num: 32
+I (653) wifi:Init static rx buffer size: 1600
+I (663) wifi:Init static rx buffer num: 10
+I (663) wifi:Init dynamic rx buffer num: 32
+[0;32mI (673) wifi_init: rx ba win: 6[0m
+[0;32mI (673) wifi_init: tcpip mbox: 32[0m
+[0;32mI (673) wifi_init: udp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp tx win: 5760[0m
+[0;32mI (683) wifi_init: tcp rx win: 5760[0m
+[0;32mI (693) wifi_init: tcp mss: 1440[0m
+[0;32mI (693) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (703) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (703) phy_init: phy_version 4791,2c4672b,Dec 20 2023,16:06:06[0m
+I (803) wifi:mode : sta (08:d1:f9:e1:84:ec)
+I (803) wifi:enable tsf
+WIFI CONNECTING....
+wifi_init_softap finished. SSID:test  password:lolkek227
+Wifi ready!
+starting mqtt
+I (813) wifi:new:<11,0>, old:<1,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (823) wifi:state: init -> auth (b0)
+I (1823) wifi:state: auth -> init (200)
+I (1823) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (4243) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (4243) wifi:state: init -> auth (b0)
+I (5253) wifi:state: auth -> init (200)
+I (5253) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (5723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (5723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (5723) task_wdt: Tasks currently running:[0m
+[0;31mE (5723) task_wdt: CPU 0: main[0m
+[0;31mE (5723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (5723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (7693) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (7693) wifi:state: init -> auth (b0)
+I (8693) wifi:state: auth -> init (200)
+I (8703) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (10723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (10723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (10723) task_wdt: Tasks currently running:[0m
+[0;31mE (10723) task_wdt: CPU 0: main[0m
+[0;31mE (10723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (10723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (11133) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (11133) wifi:state: init -> auth (b0)
+I (12133) wifi:state: auth -> init (200)
+I (12133) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (14553) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (14563) wifi:state: init -> auth (b0)
+I (15563) wifi:state: auth -> init (200)
+I (15563) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (15723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (15723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (15723) task_wdt: Tasks currently running:[0m
+[0;31mE (15723) task_wdt: CPU 0: main[0m
+[0;31mE (15723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (15723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (17983) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (17983) wifi:state: init -> auth (b0)
+I (18983) wifi:state: auth -> init (200)
+I (18983) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (20723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (20723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (20723) task_wdt: Tasks currently running:[0m
+[0;31mE (20723) task_wdt: CPU 0: main[0m
+[0;31mE (20723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (20723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (21413) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (21413) wifi:state: init -> auth (b0)
+I (22413) wifi:state: auth -> init (200)
+I (22413) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (24833) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (24833) wifi:state: init -> auth (b0)
+[0;31mE (25723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (25723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (25723) task_wdt: Tasks currently running:[0m
+[0;31mE (25723) task_wdt: CPU 0: main[0m
+[0;31mE (25723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (25723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D702A:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+I (25833) wifi:state: auth -> init (200)
+I (25843) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (28263) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (28263) wifi:state: init -> auth (b0)
+I (29263) wifi:state: auth -> init (200)
+I (29263) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (30723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (30723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (30723) task_wdt: Tasks currently running:[0m
+[0;31mE (30723) task_wdt: CPU 0: main[0m
+[0;31mE (30723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (30723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (31693) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (31693) wifi:state: init -> auth (b0)
+I (32693) wifi:state: auth -> init (200)
+I (32693) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (35113) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (35113) wifi:state: init -> auth (b0)
+[0;31mE (35723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (35723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (35723) task_wdt: Tasks currently running:[0m
+[0;31mE (35723) task_wdt: CPU 0: main[0m
+[0;31mE (35723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (35723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+I (36123) wifi:state: auth -> init (200)
+I (36123) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (38543) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (38543) wifi:state: init -> auth (b0)
+I (39543) wifi:state: auth -> init (200)
+I (39543) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (40723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (40723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (40723) task_wdt: Tasks currently running:[0m
+[0;31mE (40723) task_wdt: CPU 0: main[0m
+[0;31mE (40723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (40723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D702A:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (41973) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (41983) wifi:state: init -> auth (b0)
+I (42983) wifi:state: auth -> init (200)
+I (42983) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (45403) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (45403) wifi:state: init -> auth (b0)
+[0;31mE (45723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (45723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (45723) task_wdt: Tasks currently running:[0m
+[0;31mE (45723) task_wdt: CPU 0: main[0m
+[0;31mE (45723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (45723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+I (46403) wifi:state: auth -> init (200)
+I (46403) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+WiFi lost connection
+Retrying to Connect...
+I (48833) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (48833) wifi:state: init -> auth (b0)
+I (48843) wifi:state: auth -> init (1c0)
+I (48843) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+WiFi lost connection
+Retrying to Connect...
+[0;31mE (50723) task_wdt: Task watchdog got triggered. The following tasks/users did not reset the watchdog in time:[0m
+[0;31mE (50723) task_wdt:  - IDLE0 (CPU 0)[0m
+[0;31mE (50723) task_wdt: Tasks currently running:[0m
+[0;31mE (50723) task_wdt: CPU 0: main[0m
+[0;31mE (50723) task_wdt: CPU 1: IDLE1[0m
+[0;31mE (50723) task_wdt: Print CPU 0 (current core) backtrace[0m
+
+
+Backtrace: 0x400DC973:0x3FFB1D30 0x400DCD38:0x3FFB1D50 0x400833B5:0x3FFB1D80 0x400D7024:0x3FFBA540 0x400D74A7:0x3FFBA620 0x40166DAF:0x3FFBA660 0x40089C1D:0x3FFBA690
+
+WiFi lost connection
+Retrying to Connect...
+I (51263) wifi:new:<11,0>, old:<11,0>, ap:<255,255>, sta:<11,0>, prof:1
+I (51263) wifi:state: init -> auth (b0)
+I (51323) wifi:state: auth -> assoc (0)
+I (51333) wifi:state: assoc -> run (10)
+I (51363) wifi:connected with test, aid = 13, channel 11, BW20, bssid = 76:97:62:9d:67:d4
+I (51363) wifi:security: WPA2-PSK, phy: bgn, rssi: -19
+I (51373) wifi:pm start, type: 1
+
+I (51373) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+WiFi CONNECTED
+I (51393) wifi:dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+I (51393) wifi:AP's beacon interval = 102400 us, DTIM period = 2
+[0;32mI (52383) esp_netif_handlers: sta ip: 192.168.244.35, mask: 255.255.255.0, gw: 192.168.244.70[0m
+Wifi got IP...
+
+[0;32mI (52383) WiFi_STA: Other event id:7[0m
+mqtt started
+I (52463) wifi:<ba-add>idx:0 (ifx:0, 76:97:62:9d:67:d4), tid:0, ssn:4, winSize:64
+[0;32mI (52473) main_task: Returned from app_main()[0m
+[0;32mI (52483) WiFi_STA: MQTT_EVENT_CONNECTED[0m
+[0;32mI (52493) WiFi_STA: sent publish successful, msg_id=29773[0m
+[0;32mI (52493) WiFi_STA: sent subscribe successful, msg_id=18649[0m
+[0;32mI (52493) WiFi_STA: sent subscribe successful, msg_id=45488[0m
+[0;32mI (52503) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29773[0m
+[0;32mI (52503) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=18649[0m
+[0;32mI (52503) WiFi_STA: sent publish successful, msg_id=0[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (52553) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=45488[0m
+[0;32mI (52553) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (52573) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (52583) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8831[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (54893) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (54903) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60335[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (56933) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (57143) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37649[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (58983) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (59003) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=10823[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (60743) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (60773) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9507[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (62873) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (62883) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48837[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (64923) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (64933) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61037[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (66963) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (66983) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36360[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (69013) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (69033) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21972[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (71093) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (71113) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21907[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (73113) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (73313) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25686[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (75163) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (75363) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=10773[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (77203) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (77423) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29908[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (79253) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (79463) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61154[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (81303) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (81513) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45919[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (83253) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (83263) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32833[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (85303) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (85513) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49801[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (87343) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (87553) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=33525[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (89393) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (89593) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45530[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (91443) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (91463) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=64918[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (93143) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (93153) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52354[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (95333) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (95343) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=42761[0m
+Humidity: 40.0% Temp: 23.0C
+[0;32mI (97383) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (97393) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16789[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (99423) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (99443) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26854[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (101503) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (101523) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=27583[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (103523) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (103543) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51318[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (105573) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (105583) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52820[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (107363) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (107373) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=34956[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (109423) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (109443) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23336[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (111723) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (111923) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=36841[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (113763) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (113793) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45734[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (115813) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (116013) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21833[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (117663) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (117683) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40353[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (119803) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (120113) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=46820[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (121753) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (121763) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5416[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (123803) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (123823) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9318[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (125843) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (125863) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8601[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (127893) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (127923) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=42604[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (129943) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (129963) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=30965[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (131993) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (132203) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=28125[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (134043) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (134273) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=57662[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (136083) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (136293) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56252[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (138133) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (138343) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=41863[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (139983) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (139993) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44176[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (142033) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (142053) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35021[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (144073) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (144103) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54327[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (145923) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (146123) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=12492[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (148173) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (148193) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51519[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (149973) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (149993) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56024[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (152273) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (152473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=31408[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (154043) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (154063) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22588[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (156373) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (156573) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54299[0m
+Humidity: 39.0% Temp: 23.0C
+[0;32mI (158413) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA=23.00
+[0;32mI (158613) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44696[0m

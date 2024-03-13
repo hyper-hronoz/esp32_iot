@@ -1,0 +1,817 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x17 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.2.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Mar 10 2024 12:45:29[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v3.1[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=26a48h (158280) map[0m
+[0;32mI (158) esp_image: segment 1: paddr=00036a70 vaddr=3ffb0000 size=03c4ch ( 15436) load[0m
+[0;32mI (164) esp_image: segment 2: paddr=0003a6c4 vaddr=40080000 size=05954h ( 22868) load[0m
+[0;32mI (174) esp_image: segment 3: paddr=00040020 vaddr=400d0020 size=98d28h (625960) map[0m
+[0;32mI (388) esp_image: segment 4: paddr=000d8d50 vaddr=40085954 size=10d5ch ( 68956) load[0m
+[0;32mI (427) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (427) boot: Disabling RNG early entropy source...[0m
+[0;32mI (438) cpu_start: Multicore app[0m
+[0;32mI (447) cpu_start: Pro cpu start user code[0m
+[0;32mI (447) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (447) cpu_start: Application information:[0m
+[0;32mI (450) cpu_start: Project name:     esp32_iot[0m
+[0;32mI (455) cpu_start: App version:      14d68bc-dirty[0m
+[0;32mI (461) cpu_start: Compile time:     Mar 12 2024 12:32:39[0m
+[0;32mI (467) cpu_start: ELF file SHA256:  9023beb4a...[0m
+[0;32mI (472) cpu_start: ESP-IDF:          v5.2.1[0m
+[0;32mI (477) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (482) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (487) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (492) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (499) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (505) heap_init: At 3FFB8350 len 00027CB0 (159 KiB): DRAM[0m
+[0;32mI (511) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (517) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (524) heap_init: At 400966B0 len 00009950 (38 KiB): IRAM[0m
+[0;32mI (532) spi_flash: detected chip: generic[0m
+[0;32mI (535) spi_flash: flash io: dio[0m
+[0;33mW (539) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (553) main_task: Started on CPU0[0m
+[0;32mI (563) main_task: Calling app_main()[0m
+Esp32 serial on
+This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+Minimum free heap size: 275716 bytes
+I (613) wifi:wifi driver task: 3ffc03d0, prio:23, stack:6656, core=0
+I (633) wifi:wifi firmware version: a9f5b59
+I (633) wifi:wifi certification version: v7.0
+I (633) wifi:config NVS flash: enabled
+I (633) wifi:config nano formating: disabled
+I (643) wifi:Init data frame dynamic rx buffer num: 32
+I (643) wifi:Init static rx mgmt buffer num: 5
+I (643) wifi:Init management short buffer num: 32
+I (653) wifi:Init dynamic tx buffer num: 32
+I (653) wifi:Init static rx buffer size: 1600
+I (663) wifi:Init static rx buffer num: 10
+I (663) wifi:Init dynamic rx buffer num: 32
+[0;32mI (673) wifi_init: rx ba win: 6[0m
+[0;32mI (673) wifi_init: tcpip mbox: 32[0m
+[0;32mI (673) wifi_init: udp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp mbox: 6[0m
+[0;32mI (683) wifi_init: tcp tx win: 5760[0m
+[0;32mI (683) wifi_init: tcp rx win: 5760[0m
+[0;32mI (693) wifi_init: tcp mss: 1440[0m
+[0;32mI (693) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (703) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (703) phy_init: phy_version 4791,2c4672b,Dec 20 2023,16:06:06[0m
+I (803) wifi:mode : sta (08:d1:f9:e1:84:ec)
+I (803) wifi:enable tsf
+WIFI CONNECTING....
+Wifi ready!
+starting mqtt
+I (813) wifi:new:<1,1>, old:<1,0>, ap:<255,255>, sta:<1,1>, prof:1
+I (813) wifi:state: init -> auth (b0)
+I (823) wifi:state: auth -> assoc (0)
+I (833) wifi:state: assoc -> run (10)
+I (893) wifi:connected with tp_freak_F, aid = 3, channel 1, 40U, bssid = 90:72:82:0f:6f:a5
+I (893) wifi:security: WPA2-PSK, phy: bgn, rssi: -43
+I (903) wifi:pm start, type: 1
+
+I (903) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+WiFi CONNECTED
+I (923) wifi:<ba-add>idx:0 (ifx:0, 90:72:82:0f:6f:a5), tid:0, ssn:524, winSize:64
+I (933) wifi:AP's beacon interval = 102400 us, DTIM period = 1
+[0;32mI (3913) esp_netif_handlers: sta ip: 192.168.3.5, mask: 255.255.255.0, gw: 192.168.3.1[0m
+Wifi got IP...
+
+[0;32mI (3913) WiFi_STA: Other event id:7[0m
+mqtt started
+[0;32mI (3973) main_task: Returned from app_main()[0m
+[0;32mI (4133) WiFi_STA: MQTT_EVENT_CONNECTED[0m
+[0;32mI (4133) WiFi_STA: sent publish successful, msg_id=538[0m
+[0;32mI (4143) WiFi_STA: sent subscribe successful, msg_id=54906[0m
+[0;32mI (4143) WiFi_STA: sent subscribe successful, msg_id=44491[0m
+[0;32mI (4163) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=538[0m
+[0;32mI (4173) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=54906[0m
+[0;32mI (4173) WiFi_STA: sent publish successful, msg_id=0[0m
+Humidity: 23.0% Temp: 27.0C
+[0;32mI (4193) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=44491[0m
+[0;32mI (4193) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (4223) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 23.00}
+[0;32mI (4243) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38690[0m
+Humidity: 82.0% Temp: 29.0C
+[0;32mI (9223) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 82.00}
+[0;32mI (9243) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49189[0m
+Humidity: 80.0% Temp: 28.0C
+[0;32mI (14453) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 80.00}
+[0;32mI (14473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60569[0m
+Humidity: 79.0% Temp: 28.0C
+[0;32mI (19473) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 79.00}
+[0;32mI (19483) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62498[0m
+Humidity: 76.0% Temp: 28.0C
+[0;32mI (24323) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 76.00}
+[0;32mI (24353) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=11733[0m
+Humidity: 73.0% Temp: 27.0C
+[0;32mI (29363) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 73.00}
+[0;32mI (29373) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62369[0m
+Humidity: 70.0% Temp: 27.0C
+[0;32mI (34523) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 70.00}
+[0;32mI (34533) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53047[0m
+Humidity: 66.0% Temp: 27.0C
+[0;32mI (39543) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 66.00}
+[0;32mI (39573) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=46009[0m
+Humidity: 62.0% Temp: 27.0C
+[0;32mI (44443) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 62.00}
+[0;32mI (44473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=15625[0m
+Humidity: 58.0% Temp: 27.0C
+[0;32mI (49493) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 58.00}
+[0;32mI (49503) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29029[0m
+Humidity: 74.0% Temp: 28.0C
+[0;32mI (54493) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 74.00}
+[0;32mI (54503) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58861[0m
+Humidity: 89.0% Temp: 29.0C
+[0;32mI (59533) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 89.00}
+[0;32mI (59543) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39049[0m
+Humidity: 99.0% Temp: 31.0C
+[0;32mI (64553) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":31.00, "humidity": 99.00}
+[0;32mI (64563) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=65411[0m
+Humidity: 99.0% Temp: 31.0C
+[0;32mI (69753) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":31.00, "humidity": 99.00}
+[0;32mI (69763) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=64513[0m
+Humidity: 99.0% Temp: 31.0C
+[0;32mI (75703) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":31.00, "humidity": 99.00}
+[0;32mI (76113) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22796[0m
+Humidity: 99.0% Temp: 30.0C
+[0;32mI (79653) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":30.00, "humidity": 99.00}
+[0;32mI (79673) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25560[0m
+Humidity: 98.0% Temp: 30.0C
+[0;32mI (84673) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":30.00, "humidity": 98.00}
+[0;32mI (84693) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=65176[0m
+Humidity: 92.0% Temp: 30.0C
+[0;32mI (89923) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":30.00, "humidity": 92.00}
+[0;32mI (89943) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29017[0m
+Humidity: 85.0% Temp: 29.0C
+[0;32mI (94943) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 85.00}
+[0;32mI (94963) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40390[0m
+Humidity: 81.0% Temp: 29.0C
+[0;32mI (99963) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 81.00}
+[0;32mI (99983) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1565[0m
+Humidity: 77.0% Temp: 28.0C
+[0;32mI (104793) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 77.00}
+[0;32mI (104813) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32582[0m
+Humidity: 74.0% Temp: 28.0C
+[0;32mI (109993) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 74.00}
+[0;32mI (110013) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8085[0m
+Humidity: 70.0% Temp: 28.0C
+[0;32mI (115013) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 70.00}
+[0;32mI (115033) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8717[0m
+Humidity: 67.0% Temp: 28.0C
+[0;32mI (119883) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 67.00}
+[0;32mI (119893) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54233[0m
+Humidity: 63.0% Temp: 27.0C
+[0;32mI (124913) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 63.00}
+[0;32mI (124933) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=60127[0m
+Humidity: 59.0% Temp: 27.0C
+[0;32mI (129973) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 59.00}
+[0;32mI (129993) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=47147[0m
+Humidity: 55.0% Temp: 27.0C
+[0;32mI (135193) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 55.00}
+[0;32mI (135213) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23974[0m
+Humidity: 51.0% Temp: 27.0C
+[0;32mI (140203) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 51.00}
+[0;32mI (140223) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=32031[0m
+Humidity: 47.0% Temp: 27.0C
+[0;32mI (145223) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 47.00}
+[0;32mI (145243) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44147[0m
+Humidity: 44.0% Temp: 27.0C
+[0;32mI (150233) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 44.00}
+[0;32mI (150253) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=43772[0m
+Humidity: 41.0% Temp: 27.0C
+[0;32mI (155253) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 41.00}
+[0;32mI (155273) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58813[0m
+Humidity: 38.0% Temp: 26.0C
+[0;32mI (160123) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 38.00}
+[0;32mI (160163) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=29285[0m
+Humidity: 36.0% Temp: 26.0C
+[0;32mI (165143) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 36.00}
+[0;32mI (165163) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58636[0m
+Humidity: 35.0% Temp: 26.0C
+[0;32mI (170173) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 35.00}
+[0;32mI (170193) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62480[0m
+Humidity: 33.0% Temp: 26.0C
+[0;32mI (175233) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 33.00}
+[0;32mI (175263) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16277[0m
+Humidity: 31.0% Temp: 26.0C
+[0;32mI (180443) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 31.00}
+[0;32mI (180463) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=54632[0m
+Humidity: 30.0% Temp: 26.0C
+[0;32mI (185463) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 30.00}
+[0;32mI (185483) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=41183[0m
+Humidity: 29.0% Temp: 26.0C
+[0;32mI (190483) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 29.00}
+[0;32mI (190493) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55852[0m
+Humidity: 28.0% Temp: 26.0C
+[0;32mI (195493) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 28.00}
+[0;32mI (195553) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51832[0m
+Humidity: 27.0% Temp: 26.0C
+[0;32mI (200353) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 27.00}
+[0;32mI (200403) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=12623[0m
+Humidity: 27.0% Temp: 26.0C
+[0;32mI (205633) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 27.00}
+[0;32mI (205653) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55527[0m
+Humidity: 19.0% Temp: 26.0C
+[0;32mI (210463) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 19.00}
+[0;32mI (210483) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=27102[0m
+Humidity: 25.0% Temp: 26.0C
+[0;32mI (215453) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 25.00}
+[0;32mI (215473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16101[0m
+Humidity: 25.0% Temp: 26.0C
+[0;32mI (220683) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 25.00}
+[0;32mI (220703) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=2075[0m
+Humidity: 46.0% Temp: 26.0C
+[0;32mI (225503) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 46.00}
+[0;32mI (225523) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25077[0m
+Humidity: 23.0% Temp: 26.0C
+[0;32mI (230533) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 23.00}
+[0;32mI (230563) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=41225[0m
+Humidity: 22.0% Temp: 26.0C
+[0;32mI (235743) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 22.00}
+[0;32mI (235753) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52058[0m
+Humidity: 19.0% Temp: 26.0C
+[0;32mI (240593) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 19.00}
+[0;32mI (240613) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22541[0m
+Humidity: 16.0% Temp: 26.0C
+[0;32mI (245783) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 16.00}
+[0;32mI (245823) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=50458[0m
+Humidity: 13.0% Temp: 26.0C
+[0;32mI (250803) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 13.00}
+[0;32mI (250833) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24623[0m
+Humidity: 10.0% Temp: 26.0C
+[0;32mI (255683) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 10.00}
+[0;32mI (255703) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=16712[0m
+Humidity: 10.0% Temp: 26.0C
+[0;32mI (260713) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 10.00}
+[0;32mI (260733) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=50435[0m
+Humidity: 10.0% Temp: 26.0C
+[0;32mI (265753) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 10.00}
+[0;32mI (265773) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39986[0m
+Humidity: 46.0% Temp: 26.0C
+[0;32mI (270973) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 46.00}
+[0;32mI (270993) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1994[0m
+Humidity: 36.0% Temp: 26.0C
+[0;32mI (275803) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 36.00}
+[0;32mI (275833) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52450[0m
+Humidity: 31.0% Temp: 25.0C
+[0;32mI (281003) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 31.00}
+[0;32mI (281023) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22511[0m
+Humidity: 31.0% Temp: 25.0C
+[0;32mI (285873) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 31.00}
+[0;32mI (285923) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49427[0m
+Humidity: 29.0% Temp: 25.0C
+[0;32mI (291963) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 29.00}
+[0;32mI (291973) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23391[0m
+Humidity: 29.0% Temp: 25.0C
+[0;32mI (295923) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 29.00}
+[0;32mI (295953) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48097[0m
+Humidity: 29.0% Temp: 25.0C
+[0;32mI (300973) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 29.00}
+[0;32mI (300993) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8407[0m
+Humidity: 28.0% Temp: 25.0C
+[0;32mI (306193) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 28.00}
+[0;32mI (306203) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40202[0m
+Humidity: 27.0% Temp: 25.0C
+[0;32mI (311203) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 27.00}
+[0;32mI (311223) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53303[0m
+Humidity: 27.0% Temp: 25.0C
+[0;32mI (316063) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 27.00}
+[0;32mI (316103) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5197[0m
+Humidity: 26.0% Temp: 25.0C
+[0;32mI (321243) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 26.00}
+[0;32mI (321263) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=45455[0m
+Humidity: 26.0% Temp: 25.0C
+[0;32mI (326263) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 26.00}
+[0;32mI (326283) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=48655[0m
+Humidity: 26.0% Temp: 25.0C
+[0;32mI (331273) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 26.00}
+[0;32mI (331293) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=18176[0m
+Humidity: 24.0% Temp: 25.0C
+[0;32mI (336163) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 24.00}
+[0;32mI (336193) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38470[0m
+Humidity: 21.0% Temp: 25.0C
+[0;32mI (341193) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 21.00}
+[0;32mI (341213) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=56622[0m
+Humidity: 23.0% Temp: 25.0C
+[0;32mI (346233) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 23.00}
+[0;32mI (346253) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=53076[0m
+Humidity: 23.0% Temp: 25.0C
+[0;32mI (351263) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 23.00}
+[0;32mI (351273) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=2885[0m
+Humidity: 21.0% Temp: 25.0C
+[0;32mI (356473) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 21.00}
+[0;32mI (356493) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23032[0m
+Humidity: 21.0% Temp: 25.0C
+[0;32mI (361483) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 21.00}
+[0;32mI (361503) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=62353[0m
+Humidity: 21.0% Temp: 25.0C
+[0;32mI (366333) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 21.00}
+[0;32mI (366363) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=51590[0m
+Humidity: 21.0% Temp: 25.0C
+[0;32mI (371363) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 21.00}
+[0;32mI (371383) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52999[0m
+Humidity: 18.0% Temp: 25.0C
+[0;32mI (376543) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 18.00}
+[0;32mI (376563) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26689[0m
+Humidity: 18.0% Temp: 25.0C
+[0;32mI (381473) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 18.00}
+[0;32mI (381493) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59449[0m
+Humidity: 18.0% Temp: 25.0C
+[0;32mI (386463) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 18.00}
+[0;32mI (386483) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=52831[0m
+Humidity: 14.0% Temp: 25.0C
+[0;32mI (391693) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 14.00}
+[0;32mI (391713) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=2241[0m
+Humidity: 14.0% Temp: 25.0C
+[0;32mI (396713) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 14.00}
+[0;32mI (396753) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=37442[0m
+Humidity: 14.0% Temp: 25.0C
+[0;32mI (401553) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 14.00}
+[0;32mI (401563) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=11285[0m
+Humidity: 10.0% Temp: 25.0C
+[0;32mI (406593) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 10.00}
+[0;32mI (406613) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=58060[0m
+Humidity: 32.0% Temp: 25.0C
+[0;32mI (411673) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 32.00}
+Humidity: 33.0% Temp: 25.0C
+[0;32mI (418033) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=17303[0m
+Humidity: 44.0% Temp: 25.0C
+Humidity: 52.0% Temp: 26.0C
+Humidity: 59.0% Temp: 26.0C
+Humidity: 64.0% Temp: 26.0C
+Humidity: 68.0% Temp: 26.0C
+Humidity: 70.0% Temp: 26.0C
+Humidity: 72.0% Temp: 26.0C
+Humidity: 74.0% Temp: 26.0C
+Humidity: 76.0% Temp: 26.0C
+[0;33mW (471803) transport_base: Poll timeout or error, errno=Success, fd=54, timeout_ms=10000[0m
+[0;31mE (471803) mqtt_client: Writing didn't complete in specified timeout: errno=0[0m
+[0;32mI (471803) WiFi_STA: MQTT_EVENT_DISCONNECTED[0m
+Humidity: 77.0% Temp: 26.0C
+[0;32mI (481813) WiFi_STA: Other event id:7[0m
+Humidity: 80.0% Temp: 26.0C
+[0;32mI (482053) WiFi_STA: MQTT_EVENT_CONNECTED[0m
+[0;32mI (482053) WiFi_STA: sent publish successful, msg_id=22355[0m
+[0;32mI (482053) WiFi_STA: sent subscribe successful, msg_id=23131[0m
+[0;32mI (482063) WiFi_STA: sent subscribe successful, msg_id=57848[0m
+[0;32mI (482093) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22355[0m
+[0;32mI (482133) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=23131[0m
+[0;32mI (482133) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (482153) WiFi_STA: MQTT_EVENT_SUBSCRIBED, msg_id=57848[0m
+[0;32mI (482153) WiFi_STA: sent publish successful, msg_id=0[0m
+[0;32mI (482163) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 80.00}
+[0;32mI (482173) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=11581[0m
+[0;32mI (482183) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 76.00}
+[0;32mI (482193) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=57655[0m
+[0;32mI (482213) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 77.00}
+[0;32mI (482223) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=1299[0m
+[0;32mI (482233) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 74.00}
+[0;32mI (482243) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=12790[0m
+Humidity: 80.0% Temp: 26.0C
+[0;32mI (487333) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 80.00}
+[0;32mI (487353) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=13747[0m
+Humidity: 80.0% Temp: 26.0C
+[0;32mI (492353) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 80.00}
+[0;32mI (492373) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25872[0m
+Humidity: 81.0% Temp: 26.0C
+[0;32mI (497373) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 81.00}
+[0;32mI (497393) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9841[0m
+Humidity: 81.0% Temp: 26.0C
+[0;32mI (502193) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 81.00}
+[0;32mI (502213) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=3703[0m
+Humidity: 82.0% Temp: 26.0C
+[0;32mI (507403) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 82.00}
+[0;32mI (507423) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49540[0m
+Humidity: 82.0% Temp: 26.0C
+[0;32mI (512423) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 82.00}
+[0;32mI (512483) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=43249[0m
+Humidity: 83.0% Temp: 26.0C
+[0;32mI (517283) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 83.00}
+[0;32mI (517293) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=39027[0m
+Humidity: 84.0% Temp: 26.0C
+[0;32mI (522453) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 84.00}
+[0;32mI (522473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=8990[0m
+Humidity: 84.0% Temp: 27.0C
+[0;32mI (527473) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 84.00}
+[0;32mI (527493) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=22071[0m
+Humidity: 82.0% Temp: 27.0C
+[0;32mI (532403) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 82.00}
+[0;32mI (532413) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=13180[0m
+Humidity: 99.0% Temp: 28.0C
+[0;32mI (537513) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 99.00}
+[0;32mI (537523) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=13276[0m
+Humidity: 99.0% Temp: 29.0C
+[0;32mI (542633) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 99.00}
+[0;32mI (542633) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=21797[0m
+Humidity: 83.0% Temp: 29.0C
+[0;31mE (552473) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (557493) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;32mI (557803) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557823) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9518[0m
+[0;32mI (557853) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557863) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557873) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557883) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557893) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557903) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557913) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557923) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557933) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;32mI (557943) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 83.00}
+[0;31mE (562513) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+Humidity: 98.0% Temp: 27.0C
+[0;32mI (567573) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 98.00}
+[0;32mI (567943) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=55291[0m
+[0;31mE (572563) dht: LOW bit timeout[0m
+Could not read data from sensor
+[0;31mE (577583) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (582603) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (587623) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (592643) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (597663) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (602683) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (607703) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (612723) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (617743) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (622763) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (627783) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (632803) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+Humidity: 56.0% Temp: 25.0C
+[0;32mI (639393) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 56.00}
+[0;32mI (639413) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=412[0m
+Humidity: 54.0% Temp: 25.0C
+[0;32mI (643083) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 54.00}
+[0;32mI (643093) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24430[0m
+Humidity: 53.0% Temp: 25.0C
+[0;32mI (652303) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 53.00}
+[0;32mI (652313) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=40223[0m
+[0;32mI (652323) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 53.00}
+[0;32mI (652333) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 53.00}
+[0;32mI (652343) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 53.00}
+[0;32mI (652353) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 53.00}
+Humidity: 50.0% Temp: 25.0C
+[0;32mI (653123) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 50.00}
+[0;32mI (653143) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61358[0m
+Humidity: 47.0% Temp: 25.0C
+[0;32mI (658133) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":25.00, "humidity": 47.00}
+[0;32mI (658153) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=23992[0m
+[0;31mE (662973) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+[0;31mE (667993) dht: Initialization error, problem in phase 'C'[0m
+Could not read data from sensor
+Humidity: 91.0% Temp: 32.0C
+[0;32mI (673193) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":32.00, "humidity": 91.00}
+[0;32mI (673203) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=25055[0m
+Humidity: 84.0% Temp: 32.0C
+[0;32mI (678213) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":32.00, "humidity": 84.00}
+[0;32mI (678223) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=20546[0m
+Humidity: 88.0% Temp: 33.0C
+[0;32mI (683533) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":33.00, "humidity": 88.00}
+[0;32mI (683733) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=64321[0m
+Humidity: 76.0% Temp: 32.0C
+[0;32mI (688153) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":32.00, "humidity": 76.00}
+[0;32mI (688173) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=9781[0m
+Humidity: 85.0% Temp: 32.0C
+[0;32mI (693363) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":32.00, "humidity": 85.00}
+[0;32mI (693373) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=35414[0m
+Humidity: 99.0% Temp: 31.0C
+[0;32mI (698383) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":31.00, "humidity": 99.00}
+[0;32mI (698393) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=49628[0m
+Humidity: 99.0% Temp: 30.0C
+[0;32mI (703213) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":30.00, "humidity": 99.00}
+[0;32mI (703243) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=50195[0m
+Humidity: 99.0% Temp: 30.0C
+[0;32mI (708413) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":30.00, "humidity": 99.00}
+[0;32mI (708433) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=26534[0m
+Humidity: 99.0% Temp: 29.0C
+[0;32mI (713433) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":29.00, "humidity": 99.00}
+[0;32mI (713443) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=59885[0m
+Humidity: 99.0% Temp: 28.0C
+[0;32mI (718453) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 99.00}
+[0;32mI (718473) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38071[0m
+Humidity: 99.0% Temp: 28.0C
+[0;32mI (723383) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 99.00}
+[0;32mI (723403) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=38743[0m
+Humidity: 99.0% Temp: 28.0C
+[0;32mI (728403) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":28.00, "humidity": 99.00}
+[0;32mI (728413) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=44053[0m
+Humidity: 101.0% Temp: 27.0C
+[0;32mI (733603) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 101.00}
+[0;32mI (733623) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=61330[0m
+Humidity: 99.0% Temp: 27.0C
+[0;32mI (738423) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 99.00}
+[0;32mI (738433) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=24833[0m
+Humidity: 95.0% Temp: 27.0C
+[0;32mI (743643) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":27.00, "humidity": 95.00}
+[0;32mI (743663) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=558[0m
+Humidity: 92.0% Temp: 26.0C
+[0;32mI (748483) WiFi_STA: MQTT_EVENT_DATA[0m
+TOPIC=test
+DATA={"temperature":26.00, "humidity": 92.00}
+[0;32mI (748493) WiFi_STA: MQTT_EVENT_PUBLISHED, msg_id=5153[0m

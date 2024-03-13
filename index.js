@@ -13,8 +13,14 @@ const MQTT_TOPIC = 'test';
 // Create MQTT client instance
 const client = mqtt.connect(`mqtt://${MQTT_BROKER}:${MQTT_PORT}`);
 
+const temperatures = [];
+const humidities = []
+
 // Callback function to handle incoming MQTT messages
 client.on('message', function(topic, message) {
+    let res = JSON.stringify(message.toString());
+    console.log(res["humidity"])
+    console.log(res);
     console.log(`Received message: ${message.toString()}`);
 });
 
